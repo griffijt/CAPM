@@ -4,6 +4,8 @@ The purpose of this repository is to:
 2. Apply concepts learned in my undergrad and CFA studies
 3. See if I add any value to my portfolio
 
+Portfolio return (input) data is saved in the repository under return_data.csv
+
 ## CAPM Model
 This R scrypt performs CAPM regression analysis on my two portfolios: my retirement account (RRSP) and my stock picking account (TFSA).
 
@@ -26,7 +28,7 @@ All returns are downloaded from my bank's website and expressed in Canadian doll
 - N is small. I started investing in January 2020, so the data is not too robust.
 
 ### Analysis
-Based on returns up to August 2021 both models appear to be signficant based on an F-test at the 5% significance level.
+Based on returns up to August 2021 both models are signficant based on an F-test at the 5% significance level.
 
 RRSP:
 - This portfolio contains the following five ETFs:
